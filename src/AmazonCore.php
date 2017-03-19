@@ -694,7 +694,7 @@ abstract class AmazonCore
      */
     function fetchURL($url, $param)
     {
-        $return = array();
+        $return = ['code'=>0];
 
         $ch = curl_init();
 
